@@ -1,0 +1,7 @@
+// DICOM tag reference: http://mirc.rsna.org/dcm4che/api/org/dcm4che/dict/Tags.html
+// filter usage: https://mircwiki.rsna.org/index.php?title=The_CTP_DICOM_Filter
+
+!Manufacturer.equals("PACSGEAR")  //[0008,0070]
+* !BodyPartExamined.equals("")    //[0018,0015]
+* !ScanningSeq.equals("")         //[0018,0020]
+* !MRAcquisitionType.equals("")   //[0018,0023]
