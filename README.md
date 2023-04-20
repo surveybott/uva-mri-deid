@@ -5,9 +5,12 @@ Deidentification of MRI data in the UVA Health System
 ### RSNA MIRC DICOM Anonymizer Tool
 Standalone command line (jar) version of one bundled with RNSA Clinical Trial Processor (CTP) software.
 <br>[Download Installer](http://mirc.rsna.org/download/DicomAnonymizerTool-installer.jar)
+#### Refs
+ - [DICOM tag reference](http://mirc.rsna.org/dcm4che/api/org/dcm4che/dict/Tags.html)
+ - [filter usage](https://mircwiki.rsna.org/index.php?title=The_CTP_DICOM_Filter)
 #### Usage
-`-f` rsna/dicom-anonymizer.script<br>
-`-da` rsna/NonMRDicomFilter.script
+`-f ` [rsna/dicom-anonymizer.script](rsna/dicom-anonymizer.script)<br>
+`-da` [rsna/NonMRDicomFilter.script](rsna/NonMRDicomFilter.script)
 ```
 Usage: java -jar DAT.jar {parameters}
 where:
@@ -55,10 +58,6 @@ os.name:               Mac OS X
 java.version:          19.0.1
 sun.arch.data.model:   64
 ```
-
-#### Refs
- - [DICOM tag reference](http://mirc.rsna.org/dcm4che/api/org/dcm4che/dict/Tags.html)
- - [filter usage](https://mircwiki.rsna.org/index.php?title=The_CTP_DICOM_Filter)
 
 ### dcm2niix
 Convert multiple DICOMs to NIFTI format
