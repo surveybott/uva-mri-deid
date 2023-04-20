@@ -6,6 +6,6 @@ Deidentification of MRI data in the UVA Health System
 Standalone command line (jar) version of one bundled with RNSA Clinical Trial Processor (CTP) software.
 [Download Installer](http://mirc.rsna.org/download/DicomAnonymizerTool-installer.jar)
 
-Refs
- [DICOM tag reference](http://mirc.rsna.org/dcm4che/api/org/dcm4che/dict/Tags.html)
- [filter usage](https://mircwiki.rsna.org/index.php?title=The_CTP_DICOM_Filter)
+#### Refs
+ - [DICOM tag reference](http://mirc.rsna.org/dcm4che/api/org/dcm4che/dict/Tags.html)
+ - [filter usage](https://mircwiki.rsna.org/index.php?title=The_CTP_DICOM_Filter)
