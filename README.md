@@ -1,6 +1,8 @@
 # uva-mri-deid
 Deidentification of MRI data in the UVA Health System
-
+## Scripts
+Provides helper python scripts for deidentification
+- [scripts/dicom_anon_fields.csv](scripts/dicom_anon_fields.csv) contains a list of header fields from [Aryanto et al., 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4636522/) to anonymize if done manually 
 ## Software
 ### RSNA MIRC DICOM Anonymizer Tool
 Standalone command line (jar) version of one bundled with RNSA Clinical Trial Processor (CTP) software.
